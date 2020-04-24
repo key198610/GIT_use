@@ -44,7 +44,13 @@ git revert HEAD
 git push origin master  
 
    
-// 版本不同步 => 
+// 版本不同步 =>   
 01: git pull origin 'git地址'   
 02: git add README.md   
 03:  push -u origin 分支     
+
+
+// git添加所有新文件    
+git add -A  提交所有变化    
+git add -u  提交被修改(modified)和被删除(deleted)文件，不包括新文件(new)    
+git add .   提交新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件   
