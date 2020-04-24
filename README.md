@@ -46,3 +46,9 @@ git push origin master -f
 02: 是放弃指定提交的修改，但是会生成一次新的提交，需要填写提交注释，以前的历史记录都在；  
 git revert HEAD  
 git push origin master  
+
+   
+// 版本不同步 => 
+01: git pull origin 'git地址'   
+02: git add README.md   
+03:  push -u origin 分支     
